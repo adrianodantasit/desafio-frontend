@@ -1,0 +1,34 @@
+.list {
+  &__element {
+    list-style: none;
+    text-transform: capitalize;
+    font-size: $default-font-list-element-size;
+
+    &:nth-child(2n + 1) {
+      background: $color-list-colored-background;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+
+    &:link,
+    &:visited {
+      color: $color-list-element;
+    }
+  }
+
+  &__repos {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    overflow: hidden; /* NEW */
+    min-width: 0; /* NEW; needed for Firefox */
+    justify-self: stretch;
+  }
+}

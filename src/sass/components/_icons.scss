@@ -1,0 +1,10 @@
+.icons {
+  color: $color-icon;
+
+  &__link {
+    &:link,
+    &:visited {
+      color: $color-icon;
+    }
+  }
+}

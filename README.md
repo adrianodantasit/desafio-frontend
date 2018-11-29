@@ -1,70 +1,139 @@
-# Frontend Chalenge - Qconcursos
+# Project Title
 
-Olá Dev.
+The objective of this project is implement an interface that fetch data from the Github API, it's a test for join the company Qconcursos.
 
-Este repositório foi criado para que você possa nos mostrar o que sabe tecnicamente. Esperamos que você nos surpreenda com sua experiência e criatividade.
+## Getting Started
 
-O teste em si, é simples, esperamos que você mostre o que sabe independente de frameworks/libs famosos como React, VueJs e Angular. Então queremos que você utilize Vanilla em tudo, ou tudo o que for possível, ou seja, queremos que você implemente uma solução sem utilizar jQuery, Boostrap ou afins. Queremos ver sua capacidade de criar algo sem a ajuda de facilitadores como o jQuery ou o Bootstrap. Não o julgaremos mal se você optar por utilizar libs como lodash ou underscore para facilitar sua vida no JS, ou utilizar preprocessadores como SCSS, LESS, Stylus, Babel, etc. Para processar seu código. Até recomendamos que você os utilize. O bom senso será de extrema importância.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Queremos que você nos mostre que consegue "sobreviver" sem Frameworks e tem criatividade suficiente para implementar suas próprias soluções ;)
+### Prerequisites
 
-Vamos listar os pontos chaves que serão utilizados na avaliação do seu teste:
+You need to have node.js installed in your machine, you can find it in the link bellow.
 
-Avaliaremos se:
+```
+https://nodejs.org/en/
+```
 
-* O Dev utilizou HTML, JS e CSS. Com ou sem pré-processadores.
-* O desafio foi implementado sem a necessidade de frameworks ou libs como jQuery, Bootstrap, React, Angular, VueJs...
-* O Dev tem ou não a capacidade de arquitetar uma aplicação do zero.
-* O Dev componentizou e organizou o código para que ele seja fácil de entender e de manter.
-* O Dev utilizou ferramentas como Webpack, Gulp, Grunt, SCSS, Babel ou afins para facilitar e acelerar o desenvolvimento (Não é obrigatório).
-* O Dev se preocupou em organizar o CSS, pois acreditamos que o CSS é tão importante quanto o JS. É sério.
+### Installing
 
-***ATENÇÃO**: Não estamos esperando que você seja um Ninja e que vá surpreender em todos os quesitos. Estamos muito mais interessados em saber qual a sua capacidade como desenvolvedor. Você pode por exemplo ser muito bom com CSS e não muito bom com JS, ou o contrário. Isso não quer dizer que você não esteja apto para ser contratado. Queremos é saber o quão esforçado você é. Então use e abuse do bom senso. Se você acha que algo é importante de ser mostrado, mostre. É a sua chance de mostrar o que você sabe :)
+Clone the project to your machine and open its folder in your command line and type the command bellow for download the node modules needed for the project run:
 
-Se tiver qualquer dúvida sobre o desafio, abra uma Issue neste mesmo repositório. Responderemos o mais rápido possível.
+```
+npm install
+```
 
-### Então, vamos ao teste, finalmente!
+Wait for download the Node Modules
 
-Você terá que implementar uma landing page que possui uma feature para listar repositórios de um perfil qualquer do Github. Se acha que consegue fazer algo melhor em relação ao design, faça. Se acha que deve seguir exatamente como está no design, fique à vontade. O importante é que você mostre os seus conhecimentos da melhor forma possível, levando em conta o tempo que você terá para implementar este desafio.
+## Running the project
 
-Além de implementar o design, você deve mostrar que consegue consumir uma API Rest. Escolhemos a [API do Github](https://developer.github.com/v3/) para isso. Fique à vontade para utilizar qualquer lib para acessar estes dados.
+How to run the project:
 
-Tasks:
+For start the page in your own server:
 
-* Implementar o design mostrando sua experiência com HTML, JS e CSS.
-* Implementar a funcionalidade de listar os repositórios e os repositórios favoritos de um perfil qualquer do Github.
-* Abrir um Pull Request para este repositório quando você terminar de implementar o desafio.
+```
+npm run start
+```
 
-Observações:
+For deploy the production version:
 
-* Os links do menu devem apenas fazer scroll da página para suas respectivas seções quando clicados.
-* Você não precisa implementar páginas extras para os links que estão no design.
-* Os textos da landing page podem ser textos aleatórios como "Lorem ipsum".
+```
+npm run build
+```
 
-Dicas:
+You can check a live version of the project bellow:
 
-* Faça o melhor que você pode no tempo que tem para entregar.
-* Quanto mais coisas legais você conseguir mostrar, melhor.
-* Relaxe, não esperamos que você seja um Ninja, mas se for, ótimo :)
-* Se divirta, pois esperamos que você faça isso no dia a dia caso seja contratado :)
+```
+https://qconcursos-test.netlify.com/
+```
 
-Será considerado como plus:
+## Problems
 
-* Implementar o design de forma responsiva.
-* Utilizar Webpack.
-* Utilizar SCSS.
-* Utilizar ES6+.
-* Componentizar a aplicação <3.
+Internet Explorer of course. Grid in Internet Explore needs extra lines, so it needs further search and fix.
+Internet explorer needs a polyfill for fetch.
 
-Segue o design:
+## Built With
 
-Lading Page:
-![Alt text](desafio-front.jpg?raw=true "Landing Page")
+- [Babel](https://github.com/babel/babel-loader) - Loads ES2015+ code and transpiles to ES5 using Babel
+- [Postcss](https://github.com/postcss/postcss) - PostCSS is a tool for transforming styles with JS plugins (I added it for the autoprefixer feature)
+- [Prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter
+- [Sass](https://github.com/webpack-contrib/sass-loader) - Loads a Sass/SCSS file and compiles it to CSS
+- [Webpack](https://github.com/webpack) - The main purpose is to bundle JavaScript files for usage in a browser
 
-Listagem de repositórios:
-![Alt text](desafio2.jpg?raw=true "Feature")
+## Authors
 
+- **Adriano Dantas** - (https://github.com/adrianodantasit)
 
-Não se esqueça de abrir um Pull Request até que o tempo se esgote.
+## License
 
-** Boa sorte **
+This project is licensed under the MIT License
+
+---
+
+# Título do Projeto
+
+O objetivo deste projeto é implementar uma interface para buscar dados da API do Github, é um teste para integrar a empresa Qconcursos
+
+## Iniciando
+
+Essas instruções irão te permitir conseguir uma cópia do projeto executando na sua máquina para possíveis desenvolvimento extras e testes.
+
+### Pré-requisitos
+
+Você precisa ter o node.js instalado na sua máquina, você pode baixar-lo no endereço abaixo.
+
+```
+https://nodejs.org/en/
+```
+
+### Instalando
+
+Baixe este projeto para o seu computador, abra sua pasta na linha de comando e digite o comando abaixo para baixar os módulos node necessários para o projeto executar:
+
+```
+npm install
+```
+
+Espere os módulos serem baixados
+
+## Executando o projeto
+
+Como executar o projeto:
+
+Para iniciar a página em servidor próprio
+
+```
+npm run start
+```
+
+Para criar a versão de produção:
+
+```
+npm run build
+```
+
+Você pode conferir o resultado hospedado no link abaixo:
+
+```
+https://qconcursos-test.netlify.com/
+```
+
+## Problemas
+
+Internet Explorer é claro. A propriedade Grid no Internet Explorer necessita de linhas extras, assim será necessário mais pesquisas sobre como resolver isso.
+Internet Explorer necessita de um polyfill para utilizar o Fetch.
+
+## Criado com
+
+- [Babel](https://github.com/babel/babel-loader) - Loads ES2015+ code and transpiles to ES5 using Babel
+- [Postcss](https://github.com/postcss/postcss) - PostCSS is a tool for transforming styles with JS plugins (I added it for the autoprefixer feature)
+- [Prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter
+- [Sass](https://github.com/webpack-contrib/sass-loader) - Loads a Sass/SCSS file and compiles it to CSS
+- [Webpack](https://github.com/webpack) - The main purpose is to bundle JavaScript files for usage in a browser
+
+## Autor
+
+- **Adriano Dantas** - (https://github.com/adrianodantasit)
+
+## License
+
+This project is licensed under the MIT License

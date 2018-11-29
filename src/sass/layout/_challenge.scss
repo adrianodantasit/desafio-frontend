@@ -1,0 +1,32 @@
+.challenge {
+  display: block;
+  background-color: $color-challenge;
+  padding: 5rem 10rem;
+  width: 100%;
+
+  @include respond(tab-port) {
+    padding: 1rem 3rem;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__card {
+    width: 40%;
+    margin: 0 auto;
+
+    @include respond(small-desktop) {
+      width: 60%;
+    }
+    @include respond(tab-land) {
+      width: 70%;
+    }
+    @include respond(tab-port) {
+      width: 80%;
+    }
+    @include respond(phone) {
+      width: 90%;
+    }
+  }
+}

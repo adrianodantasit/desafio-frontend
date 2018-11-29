@@ -1,0 +1,41 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-paragraph;
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 4rem;
+
+  @include respond(tab-port) {
+    font-size: 3rem;
+  }
+
+  @include respond(phone) {
+    font-size: 2.5rem;
+  }
+}
+
+.heading-tertiary {
+  color: $color-card-text;
+  font-size: $default-font-size;
+  margin: 1rem 0;
+}
+
+.paragraph {
+  font-size: $default-font-size;
+  padding: 0 25rem;
+  margin-bottom: 3rem;
+
+  @include respond(tab-land) {
+    padding: 0 7rem;
+  }
+
+  @include respond(tab-port) {
+    padding: 0 3rem;
+  }
+}
